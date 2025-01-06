@@ -3,11 +3,11 @@ function comprar() {
     const tipoIngresso = document.getElementById("tipo-ingresso").value;
     const quantidade = parseInt(document.getElementById("qtd").value);
 
-    if (quantidade <= 0 || isNaN(quantidade)) { 
-        alert("Por favor, insira uma quantidade válida e positiva."); 
-        return; 
+    if (quantidade <= 0 || isNaN(quantidade)) {
+        alert("Por favor, insira uma quantidade válida e positiva.");
+        return;
     }
-    
+
     const ingressos = {
         pista: document.getElementById("qtd-pista"),
         superior: document.getElementById("qtd-superior"),
